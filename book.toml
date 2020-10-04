@@ -1,0 +1,6 @@
+[book]
+authors = ["pkeugine"]
+language = "en"
+multilingual = false
+src = "src"
+title = "UniBook"
