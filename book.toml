@@ -1,5 +1,7 @@
 [book]
+title = "UniBook"
 authors = ["pkeugine"]
+description = "The true basics of programming"
 language = "en"
 multilingual = false
 src = "src"
