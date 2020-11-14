@@ -5,6 +5,12 @@
 
 ## teamkw.github.io/unibook
 
+unibook은 프로그래밍을 처음으로 접하는 분들을 위한 책입니다.
+
+학교에서 수업을 들을 때 또는 독학으로 코딩을 배울 때와 같은 상황에 도움이 될 수 있도록 만들어졌습니다.
+
+❗️이 책은 프로그래밍의 기본에 대해서 알려주는 책이 아닙니다. 기존에 배우던 프로그래밍과 병행하는 것을 추천합니다.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
