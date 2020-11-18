@@ -38,11 +38,10 @@ TeamKW는 아래와 같은 학생분들께 의미있는 프로그래밍 경험�
 [Issue 페이지](https://github.com/teamkw/unibook/issues)를 보시면 '🐣적절한 첫 이슈' 또는 '🙌도움!' 레이블이 붙은 이슈를 보실 수 있습니다. 그 중 마음에 드는 것을 고른 후, TeamKW 디스코드 채널이나 Issue 안의 댓글을 통해 다른 분들과 소통을 해주시길 바랍니다.
 누구에게 말을 걸어야할지 잘 모르시겠다면 @pkeugine 을 태그해 주시면 TeamKW 관리자와 대화를 나누실 수 있습니다.
 
-## 📚 unibook 로컬 환경에서 실행 / 수 방법
+## 📚 unibook 로컬 환경에서 실행 방법
 
 만약 GitHub에 익숙하지 않거나 이 절차가 잘 이해되지 않는다면 TeamKW 디스코드 서버의 해당 프로젝트 채널에서 도움을 요청해주세.
 
-### 실
 1. 해당 repository를 fork 한다.
 2. fork한 repository를 본인 컴퓨터에 clone한다.
 3. 본인의 컴퓨터에 rust 언어가 설치되어 있지 않다면 [rustup](https://rustup.rs/)을 설치한다. (rust 언어가 있더라도 rustup을 추천합니다)
