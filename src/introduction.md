@@ -44,44 +44,44 @@ __StackOverflow__
 
   #### 이제 VScode를 설치해보겠습니다.
   https://code.visualstudio.com/ 로 이동하여 vscode를 다운받습니다.  
-  ![vscodeDownload_window](./img/vscodeDownload_window.PNG)
+  ![vscodeDownload_window](./img/vscodeDownload_window.png)
 
   다운 완료 후 첫 실행화면입니다.  
-  ![vscodeDowload_window_1](./img/vscodeDownload_window_1.PNG)
+  ![vscodeDowload_window_1](./img/vscodeDownload_window_1.png)
 
   다음의 아이콘을 선택하면 필요한 extension(확장프로그램)을 설치할 수 있습니다.(Ctrl+Shift+x)  
-  ![vscodeDownload_window_2](./img/vscodeDownload_window_2.PNG)
+  ![vscodeDownload_window_2](./img/vscodeDownload_window_2.png)
     
 
 ### 3 Linux
   Linux에서는 macOS나 Windows와 다르게 터미널 창에서 VScode를 설치할 수 있습니다.(터미널은 Ctrl+Alt+T 단축키로 열 수 있습니다.)
 
   명령어 입력으로 우선 컴파일러부터 설치해줍니다.  
-  __sudo apt-get install build-essential__
+    sudo apt-get install build-essential
 
   설치가 완료되면 아래의 명령어를 입력하여 정상설치 되었는지 확인합니다.  
-  __gcc --help__
+    gcc --help
 
 
   이어서 VScode를 설치해보겠습니다.
 
 1 MS의 GPG를 다운받기 위한 curl 패키지를 설치합니다.  
-__sudo apt-get install curl__
+    sudo apt-get install curl
 
 2 GPG를 다운받아서 /etc/apt/trusted.gpg.d/ 경로에 복사합니다.  
-__sudo sh -c ' curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'__
+    sudo sh -c ' curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'
 
 3 VScode를 다운받기 위한 저장소를 /etc/apt/sources.list.d/ 경로에 추가해주겠습니다.  
-__sudo sh -c ' echo " deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main " > /etc/apt/sources.list.d/vscode.list '__
+    sudo sh -c ' echo " deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main " > /etc/apt/sources.list.d/vscode.list '
 
 4 패키지를 다운받았으므로 업데이트를 해줍니다.  
-__sudo apt-get update__
+    sudo apt-get update
 
 5 VScode를 설치합니다.  
-__sudo apt-get install code__
+    sudo apt-get install code   
 
 6 3에서 추가했던 저장소를 삭제합니다.  
-__sudo rm /etc/apt/sources.list.d/vscode.list__
+    sudo rm /etc/apt/sources.list.d/vscode.list  
 
 VScode의 설치가 완료된 후, 터미널 창에 code라고 입력하여 VScode를 실행시킬 수 있습니다.  
 ![vscodeDownload_linux](./img/vscodeDownload_linux.PNG)
@@ -95,7 +95,7 @@ Open Folder(Ctrl+Shift+E)에서 작업할 폴더를 선택할 수 있습니다.
 
 다음으로 Terminal -> Configure Default Build Task... -> Create tasks.json file from template -> MSBuild  
 순으로 선택하여 tasks.json 파일을 아래와 같이 수정합니다.  
-     {
+    {
      
       "version": "2.0.0",
       "runner": "terminal",
@@ -183,7 +183,7 @@ Open Folder(Ctrl+Shift+E)에서 작업할 폴더를 선택할 수 있습니다.
 bash는 __(셸)Shell__ 의 한 종류 입니다. (셸은 bash말고도 zbash, ksh, csh 등 여러 종류가 있습니다.)  
 셸은 '명령어 처리기'로, 사람이 컴퓨터에게 일을 시킬 때 쓰는 프로그램이라고 할 수 있습니다.   
 우리가 명령어를 입력하면 셸이 받아들이고 명령어를 해석하여 커널을 사용하여 하드웨어를 조작합니다.  
-![bash](./img/bash.PNG)
+![bash](./img/bash.png)
 
 ## gcc
 gcc는 __GNU Compiler Collection__ 의 약자로, 언어 컴파일러입니다.  
@@ -211,7 +211,7 @@ Sign up으로 회원가입을 진행합니다.
 
 이메일 인증까지 모든 과정을 완료하면 아래와 같이 가입이 완료됩니다.  
 프로젝트를 위해서 repository를 생성하거나, team프로젝트를 위해 organization을 만들거나, Github 이용법에 대해서 볼 수 있는 선택지가 보입니다.  
-__일단은 Skip this for now로 넘어가 줍시다.__  
+일단은 Skip this for now로 넘어가 줍시다.  
 ![github_1](./img/github_1.PNG)
 
 이렇게 github 가입을 간단하게 완료했습니다.
