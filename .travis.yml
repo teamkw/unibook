@@ -7,6 +7,10 @@ cache:
 rust:
   - stable
 
+  
+before_install:
+  - chmod +x gradlew 
+
 before_script:
   - (test -x $HOME/.cargo/bin/cargo-install-update || cargo install cargo-update)
   - (test -x $HOME/.cargo/bin/mdbook || cargo install --vers "^0.3" mdbook)
@@ -14,6 +18,5 @@ before_script:
 
 script:
   - mdbook build && mdbook test
-
-before_install:
-  - chmod +x gradlew 
+     - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash ./travis/run_on_pull_requests; fi'
+   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./travis/run_on_non_pull_requests; fi'
