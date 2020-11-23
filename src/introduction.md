@@ -54,34 +54,34 @@ __StackOverflow__
     
 
 ### 3 Linux
-  Linux에서는 macOS나 Windows와 다르게 터미널 창에서 VScode를 설치할 수 있습니다.(터미널은 Ctrl+Alt+T 단축키로 열 수 있습니다.)
+Linux에서는 macOS나 Windows와 다르게 터미널 창에서 VScode를 설치할 수 있습니다.(터미널은 Ctrl+Alt+T 단축키로 열 수 있습니다.)
 
-  명령어 입력으로 우선 컴파일러부터 설치해줍니다.  
-    sudo apt-get install build-essential
+명령어 입력으로 우선 컴파일러부터 설치해줍니다.  
+`sudo apt-get install build-essential`
 
-  설치가 완료되면 아래의 명령어를 입력하여 정상설치 되었는지 확인합니다.  
-    gcc --help
+설치가 완료되면 아래의 명령어를 입력하여 정상설치 되었는지 확인합니다.  
+`gcc --help`
 
 
-  이어서 VScode를 설치해보겠습니다.
+이어서 VScode를 설치해보겠습니다.
 
 1 MS의 GPG를 다운받기 위한 curl 패키지를 설치합니다.  
-    sudo apt-get install curl
+`sudo apt-get install curl`
 
 2 GPG를 다운받아서 /etc/apt/trusted.gpg.d/ 경로에 복사합니다.  
-    sudo sh -c ' curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'
+`sudo sh -c ' curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'`
 
 3 VScode를 다운받기 위한 저장소를 /etc/apt/sources.list.d/ 경로에 추가해주겠습니다.  
-    sudo sh -c ' echo " deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main " > /etc/apt/sources.list.d/vscode.list '
+`sudo sh -c ' echo " deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main " > /etc/apt/sources.list.d/vscode.list'`
 
 4 패키지를 다운받았으므로 업데이트를 해줍니다.  
-    sudo apt-get update
+`sudo apt-get update`
 
 5 VScode를 설치합니다.  
-    sudo apt-get install code   
+`sudo apt-get install code`  
 
 6 3에서 추가했던 저장소를 삭제합니다.  
-    sudo rm /etc/apt/sources.list.d/vscode.list  
+`sudo rm /etc/apt/sources.list.d/vscode.list`  
 
 VScode의 설치가 완료된 후, 터미널 창에 code라고 입력하여 VScode를 실행시킬 수 있습니다.  
 ![vscodeDownload_linux](./img/vscodeDownload_linux.PNG)
@@ -95,8 +95,8 @@ Open Folder(Ctrl+Shift+E)에서 작업할 폴더를 선택할 수 있습니다.
 
 다음으로 Terminal -> Configure Default Build Task... -> Create tasks.json file from template -> MSBuild  
 순으로 선택하여 tasks.json 파일을 아래와 같이 수정합니다.  
-    {
-     
+ ```
+ {
       "version": "2.0.0",
       "runner": "terminal",
       "type": "shell",
@@ -131,7 +131,6 @@ Open Folder(Ctrl+Shift+E)에서 작업할 폴더를 선택할 수 있습니다.
               }
           },
     //C
-
           {
               "label":"save and compile C",
               "command":"gcc",
@@ -158,14 +157,14 @@ Open Folder(Ctrl+Shift+E)에서 작업할 폴더를 선택할 수 있습니다.
                   }
               }
           },
-
           {
               "label": "execute",
               "command":"cd ${fileDirname} && ./${fileBasenameNoExtension}",
               "group": "test"
           }
       ]
-    }
+}
+```
 
 
 이제 마지막입니다. File -> Preference -> Keyboard Shortcuts(Ctrl+K Ctrl + S)  
