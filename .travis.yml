@@ -14,5 +14,5 @@ before_script:
   
 
 script:
-  - mdbook build ./ && mdbook test ./
+  - mdbook build && mdbook test
 
