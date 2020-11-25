@@ -37,7 +37,7 @@
     - [gcc에 대한 기본 이해](gcc_2.md)
     - [gcc 사용하기](gcc_3.md)
     - [간단하게 c++로 Hello World 출력하기](gcc_4.md)
-- [VCS, 그리고 오픈소스](vcs_title.md)
+- [VCS](vcs_title.md)
     - [VCS란?](vcs.md)
     - [git, 그리고 GitHub](git_and_github.md)
     - [git은 window or ubuntu 설치하기](git_install.md)
