@@ -35,11 +35,11 @@ __StackOverflow__
   시스템 속성 창에서 고급 -> 환경변수창을 연 뒤, 사용자 변수에서 Path를 선택한 후, '편집'을 선택합니다.  
   ![vscodeDownload_window_5](./img/vscodeDownload_window_5.PNG)
 
-   새로만들기를 선택하여 아래의 경로를 입력해줍니다.  
-   __C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin__  
+  새로만들기를 선택하여 아래의 경로를 입력해줍니다.  
+  __C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin__  
 
-   마지막으로 cmd창에서 __gcc --version__ 명령어를 입력하여 gcc가 정상적으로 설치되었는지 확인합니다.  
-   ![vscodeDownload_window_6](./img/vscodeDownload_window_6.PNG)
+  마지막으로 cmd창에서 __gcc --version__ 명령어를 입력하여 gcc가 정상적으로 설치되었는지 확인합니다.  
+  [vscodeDownload_window_6](./img/vscodeDownload_window_6.PNG)
 
 
   #### 이제 VScode를 설치해보겠습니다.
@@ -50,8 +50,103 @@ __StackOverflow__
   ![vscodeDowload_window_1](./img/vscodeDownload_window_1.png)
 
   다음의 아이콘을 선택하면 필요한 extension(확장프로그램)을 설치할 수 있습니다.(Ctrl+Shift+x)  
-  ![vscodeDownload_window_2](./img/vscodeDownload_window_2.png)
+  ![vscodeDownload_window_2](./img/vscodeDownload_window_2.png)  
+
+  다음으로 Terminal -> Configure Default Build Task... -> Create tasks.json file from template -> MSBuild  
+  순으로 선택하여 tasks.json 파일을 아래와 같이 수정합니다.
+
+    ```{
+    "version": "2.0.0",
+    "runner": "terminal",
+    "type": "shell",
+    "echoCommand": true,
+    "presentation" : { "reveal": "always" },
+    "tasks": [
+            //C++ 컴파일
+            {
+            "label": "save and compile for C++",
+            "command": "g++",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": "build",
+
+            //컴파일시 에러를 편집기에 반영
+            //참고:   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+
+            "problemMatcher": {
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    // The regular expression. 
+                    //Example to match: helloWorld.c:5:3: warning: implicit declaration of function 'prinft'
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        //C 컴파일
+        {
+            "label": "save and compile for C",
+            "command": "gcc",
+            "args": [
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "group": "build",
+
+            //컴파일시 에러를 편집기에 반영
+            //참고:   https://code.visualstudio.com/docs/editor/tasks#_defining-a-problem-matcher
+
+            "problemMatcher": {
+                "fileLocation": [
+                    "relative",
+                    "${workspaceRoot}"
+                ],
+                "pattern": {
+                    // The regular expression. 
+                    //Example to match: helloWorld.c:5:3: warning: implicit declaration of function 'prinft'
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
     
+        
+        // // 바이너리 실행(Windows)
+        {
+                "label": "execute",
+            "command": "cmd",
+            "group": "test",
+            "args": [
+                "/C", "${fileDirname}\\${fileBasenameNoExtension}"
+                ]
+    
+        }
+    ]
+    }
+    ```
+
+이제 마지막입니다. File -> Preference -> Keyboard Shortcuts(Ctrl+K Ctrl + S)  
+로 이동하여 keybindings.json 파일을 아래와 같이 수정합니다.
+    ```// Place your key bindings in this file to override the defaults
+    [
+        { "key": "ctrl+alt+c", "command":"workbench.action.tasks.test"}
+    ]
+    ```
 
 ### 3 Linux
 Linux에서는 macOS나 Windows와 다르게 터미널 창에서 VScode를 설치할 수 있습니다.(터미널은 Ctrl+Alt+T 단축키로 열 수 있습니다.)
@@ -69,10 +164,10 @@ Linux에서는 macOS나 Windows와 다르게 터미널 창에서 VScode를 설�
 `sudo apt-get install curl`
 
 2 GPG를 다운받아서 /etc/apt/trusted.gpg.d/ 경로에 복사합니다.  
-`sudo sh -c ' curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg'`
+`sudo sh -c ' curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > /etc/apt/trusted.gpg.d/microsoft.gpg '`
 
 3 VScode를 다운받기 위한 저장소를 /etc/apt/sources.list.d/ 경로에 추가해주겠습니다.  
-`sudo sh -c ' echo " deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main " > /etc/apt/sources.list.d/vscode.list'`
+`sudo sh -c ' echo " deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main " > /etc/apt/sources.list.d/vscode.list '`
 
 4 패키지를 다운받았으므로 업데이트를 해줍니다.  
 `sudo apt-get update`
@@ -190,6 +285,8 @@ gcc는 __GNU Compiler Collection__ 의 약자로, 언어 컴파일러입니다.
 사람이 이해할 수 있는 C언어를 컴퓨터가 이해할 수 있는 binary code로 변환해주는 것이죠.
 
 위에서 언급했듯이 Visual Studio Code는 컴파일러가 포함되어있지 않기 때문에 따로 설치를 해주었습니다.  
+
+
 ## macOS/Window/Linux
 흔히 컴퓨터는 0과 1밖에 모른다고 합니다. 사실 엄밀히 말하면 0과 1도 모르죠. 사용자가 어떤 행동을 해서 전기신호를 주면, __'전압이 충분하지 않다'__ 와 __'전압이 충분하다'__ 그 정도를 구분할 수 있습니다.  
 하지만 사용자가 컴퓨터를 사용하기 위해 일일히 전기신호를 입력해줄 수는 없는 노릇입니다.  

@@ -3,7 +3,7 @@
 
 [서문](forward.md)
 
-[들어가기에 앞서](introduction.md)
+[들어가기에 앞서 준비할 것들](introduction.md)
 
 [학교 수업과의 연관성](kwangwoon_lectures.md)
 
@@ -13,15 +13,13 @@
 - [프로그래밍의 기초]()
     - [윤성우씨와 함께하는 Hello World!]()
     - [뜬금없지만 너무나도 중요한 영어 공부]()
-- [텍스트 에디터, 그리고 IDE](text_editor_and_ide.md)
-    - [글쓰기.txt](text_editor.md)
-    - [IDE는 뭔가요...?](ide.md)
-    - [학교에서 사용하는 Visual Studio, 그리고 그 문제점](visual_studio.md)
-    - [학교에서 사용하는 Eclipse](eclipse.md)
+- [텍스트 에디터(Text Editor), 그리고 IDE](text_editor_and_ide.md)
+    - [텍스트 에디터](text_editor.md)
+    - [IDE는 뭔가요?](ide.md)
     - [Visual Studio Code](visual_studio_code.md)
-    - [90년대의 보물, Vim]()
-    - [Vim 튜토리얼]()
-    - [당신의 첫 개발 환경이 Vim이어야 하는 이유]()
+    - [90년대의 보물, Vim](vim.md)
+    - [Vim 튜토리얼](vim_tutorial.md)
+    - [당신의 첫 개발 환경이 Vim이어야 하는 이유](vim_reason.md)
 - [터미널](terminal.md)
     - [터미널은 결국 글자로 이루어진 컴퓨터다]()
     - [굳이 21세기에 터미널을 배우는 이유]()
