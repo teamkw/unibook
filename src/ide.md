@@ -13,13 +13,13 @@ __기타 플러글인__
 IDE 역시 종류가 굉장히 다양합니다.
 
 ### 1. Visual Studio
-Visual Studio는 마이크로소프트사에서 만든 IDE로, 특히 C계열의 언어를 개발할 때 많이 이용합니다.
+Visual Studio는 마이크로소프트사에서 만든 IDE로, 특히 C계열의 언어를 개발할 때 많이 이용합니다.  
 ![ide_visual_studio](./img/ide_visual_studio.PNG)
 
 ### 2. Xcode
-IOS 네이티브 앱 개발에 필수인 맥에서 사용되는 IDE입니다.
+IOS 네이티브 앱 개발에 필수인 맥에서 사용되는 IDE입니다.  
 `이미지 준비중`
 
 ### 3. Eclipse
-Oracle에서 개발한 IDE로, 주로 Java 개발에 많이 이욛됩니다.
+Oracle에서 개발한 IDE로, 주로 Java 개발에 많이 이욛됩니다.  
 ![ide_eclipse](./img/ide_eclipse.PNG)

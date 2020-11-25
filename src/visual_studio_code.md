@@ -9,9 +9,9 @@ __Visual Studio__ 나 __Eclipse__ 는 __IDE__ 입니다. 프로그램을 개발�
 
 이 페이지에서는 __Visual Studio Code__ 를 가볍게 둘러보는 시간을 가져보겠습니다.
 
-0. Visual Studio Code 첫 화면
-![vscode_0](./img/vscode_0.PNG)
-vscode를 실행시켰을 때의 첫 화면입니다. Welcome이라며 환영해주는군유.  
+0. Visual Studio Code 첫 화면  
+![vscode_0](./img/vscode_0.PNG)  
+vscode를 실행시켰을 때의 첫 화면입니다. Welcome이라며 환영해주는군요.  
 원한다면 한글팩을 다운받아서 한글버전으로도 사용할 수 있지만 우리는 앞으로 영어 사용에 익숙해지는 것이 좋기 때문에 이대로 진행해보겠습니다.
 
 1. Explorer(탐색기) - Ctrl+Shift+E  
@@ -40,8 +40,8 @@ Open Folder로는 작업할 폴더를 열어서 폴더 안의 파일들을 작�
 6. Test
     준비중
 
-VScode를 간단하게 둘러보았습니다. 이걸로 VScode를 충분히 사용할 수 있는데요, 흔히들 많이 해보는 hello world를 한 번 출력해보겠습니다.
-![vscode_ex](./img/vscode_ex.PNG)
+VScode를 간단하게 둘러보았습니다. 이걸로 VScode를 충분히 사용할 수 있는데요, 흔히들 많이 해보는 hello world를 한 번 출력해보겠습니다.  
+![vscode_ex](./img/vscode_ex.PNG)  
 __BDY__ 폴더를 열고 빨간색 동그라미로 표시한 부분을 눌러서 __hello.cpp__ 파일을 생성하고 작성했습니다.
 
 위 코드를 __Ctrl+S__ __Ctrl+Shift+C__ 를 순서대로 눌러서 저장하고 실행하면 터미널에 hello world가 출력되는 것을 확인할 수 있습니다.
