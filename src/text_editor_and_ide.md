@@ -1,5 +1,12 @@
-# Chapter 1
+# Chapter 2
 
-## Hello UniBook!
+## 텍스트 에디터(Text Editor), 그리고 IDE
 
-the book about programming
+Chapter 2에서는 텍스트 에디터와 IDE에 대해서 알아보겠습니다.  
+
+
+__텍스트 에디터__ 는 텍스트 파일을 편집할 수 있는 프로그램입니다. 우리가 많이 사용하는 __메모장__ 도 텍스트 에디터입니다.  
+
+__IDE__ (Integrated Development Environment)는 통합개발환경으로, 텍스트 에디터 기능을 포함하여 코딩, 디버그, 컴파일, 배포 등 프로그램을 개발할 때 사용되는 도구들의 집합체 소프트웨어입니다.
+
+이어서 텍스트에디터와 IDE에 대해서 더 자세하게 알아보겠습니다.
