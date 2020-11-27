@@ -33,6 +33,7 @@ Open Folder로는 작업할 폴더를 열어서 폴더 안의 파일들을 작�
 
 4. Run(실행) - Ctrl+Shift+D
     준비중
+
 5. Extensions(확장관리) - Ctrl+Shift+X  
 ![vscode_0_4](./imgvscode_0_4.PNG)  
 확장 프로그램을 검색하여 설치할 수 있는 탭입니다. 원하는 extension(C, Java, Python 등)을 검색하고 필요한 것을 다운받아서 사용할 수 있습니다.  
