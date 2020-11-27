@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # unibook
 [unibook에 오신 여러분을 환영합니다](title_page.md)
 
@@ -21,12 +22,12 @@
     - [Vim 튜토리얼](vim_tutorial.md)
     - [당신의 첫 개발 환경이 Vim이어야 하는 이유](vim_reason.md)
 - [터미널](terminal.md)
-    - [터미널은 결국 글자로 이루어진 컴퓨터다]()
-    - [굳이 21세기에 터미널을 배우는 이유]()
-    - [bash, 당신이 친해져야 할 존재]()
-    - [터미널 튜토리얼]()
-    - [실제 코딩 과정으로 보는 터미널과 Vim의 조합]()
-    - [실제 개발 과정으로 보는 터미널의 중요성]()
+    - [터미널은 결국 글자로 이루어진 컴퓨터다](terminal_1st.md)
+    - [굳이 21세기에 터미널을 배우는 이유](terminal_2nd.md)
+    - [bash, 당신이 친해져야 할 존재](terminal_3th.md)
+    - [터미널 튜토리얼](terminal_4th.md)
+    - [실제 코딩 과정으로 보는 터미널과 Vim의 조합](terminal_5th.md)
+    - [실제 개발 과정으로 보는 터미널의 중요성](terminal_6th.md)
 - [디렉토리와 파일](directory_file_and_folder.md)
     - [소프트웨어도 결국 이 구조로 이루어진다]()
     - [터미널에서 파도타기]()
