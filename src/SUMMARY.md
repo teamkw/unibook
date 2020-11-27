@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # unibook
 [unibook에 오신 여러분을 환영합니다](title_page.md)
 
@@ -22,12 +21,12 @@
     - [Vim 튜토리얼](vim_tutorial.md)
     - [당신의 첫 개발 환경이 Vim이어야 하는 이유](vim_reason.md)
 - [터미널](terminal.md)
-    - [터미널은 결국 글자로 이루어진 컴퓨터다](terminal_1st.md)
-    - [굳이 21세기에 터미널을 배우는 이유](terminal_2nd.md)
-    - [bash, 당신이 친해져야 할 존재](terminal_3th.md)
-    - [터미널 튜토리얼](terminal_4th.md)
-    - [실제 코딩 과정으로 보는 터미널과 Vim의 조합](terminal_5th.md)
-    - [실제 개발 과정으로 보는 터미널의 중요성](terminal_6th.md)
+    - [터미널 소개](terminal_1st.md)
+    - [왜 bash를 사용하는지 알아봅시다](terminal_2nd.md)
+    - [VIM이 왜 필요한지 알아봅시다](terminal_3th.md)
+    - [터미널로 어떤 것들을 할 수 있는지 알아봅시다](terminal_4th.md)
+    - [터미널에서 자주 사용되는 명령어를 알아봅시다](terminal_5th.md)
+    - [배운 부분들로 터미널과 VIM을 사용해보고 다음 챕터에서 시작할코딩 준비해봅시다!!](terminal_6th.md)
 - [디렉토리와 파일](directory_file_and_folder.md)
     - [소프트웨어도 결국 이 구조로 이루어진다]()
     - [터미널에서 파도타기]()
@@ -48,18 +47,19 @@
     - [라이선스 하나면 어떤 코드도 오픈소스!](opensource_license.md)
 - [OS, 그리고 Linux](os_and_linux.md)
     - [세계를 지배하는 Windows]()
-    - [MacOS]()
+    - [MacOS는 갬성이지 엌ㅋㅋ]()
     - [Windows를 쓰는 A양, MacOS를 쓰는 B군]()
     - [하지만 제일 중요한 OS는 바로 Linux]()
     - [정확히 말하면 UNIX다]()
     - [우리는 왜 학교에서 Linux를 배울까]()
 - [프로그래밍 언어](programming_language.md)
-    - [C와 C++ 그리고 C#](C_Cpp_Chash.md)
-    - [그 놈의 객체지향](object_oriented.md)
-    - [Java = 객체지향?](java.md)
-    - [다들 Python에 열광하는 이유, 그리고 당신은 그러지 말아야 할 이유](python.md)
-    - [HTML도 프로그래밍 언어인가요?]()
+    - [C와 C++]()
+    - [그 놈의 객체지향]()
+    - [Java = 객체지향?]()
+    - [다들 Python에 집착하는 이유, 그리고 당신은 그러지 말아야 할 이유]()
+    - [HTML도 프로그래밍 언어인가욬ㅋㅋ]()
     - [Javascript의 위엄]()
+    - [학교에서 배우는 C#]()
     - [컴파일 인어와 스크립트 언어]()
 - [에러와 디버깅](error_and_debugging.md)
 
@@ -84,6 +84,5 @@
 
 ## 추가하면 좋을 것 같은 주제:
 ### 애자일, 테스트, TDD
-
 ## note
 ### 함수형 프로그래밍은 level 1에 넣기에는 좀 무리인듯...?
