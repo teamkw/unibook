@@ -18,7 +18,7 @@ https://www.vim.org/download.php
 ### Linux
 이어서 리눅스에서 Vim을 설치해보겠습니다.  
 
-우선 터미널창을 열어준 뒤 명령어를 차례로 입력합니다.
+우선 터미널창을 열어준 뒤 명령어를 차례로 입력합니다.  
 ```sudo apt-get upadate```  
 ```sudo apt-get install vim```  
 위의 명령어 두 줄을 입력하면 vim 설치는 끝납니다. 간단하죠?
