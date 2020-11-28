@@ -11,6 +11,10 @@ unibook은 프로그래밍을 처음으로 접하는 분들을 위한 보조 교
 
 ❗️이 책은 프로그래밍의 기본에 대해서 알려주는 책이 아닙니다. 기존에 배우던 프로그래밍과 병행하는 것을 추천합니다.
 
+## 기여하기
+
+이 홈페이지 또한 TeamKW가 관리하는 프로젝트이기에 여러분의 기여를 기다리고 있습니다!! 🙌🙌[CONTRIBUTING.md](https://github.com/teamkw/unibook/blob/main/CONTRIBUTING.md) 문서를 확인해주세요.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
