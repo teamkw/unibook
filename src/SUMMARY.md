@@ -59,7 +59,7 @@
     - [다들 Python에 열광하는 이유, 그리고 당신은 그러지 말아야 할 이유](python.md)
     - [HTML도 프로그래밍 언어인가요?](html.md)
     - [Javascript의 위엄](javascript.md)
-    - [컴파일 인어와 스크립트 언어](compile_scripte.md)
+    - [컴파일 인어와 스크립트 언어]()
 - [에러와 디버깅](error_and_debugging.md)
 
 ## level 2
