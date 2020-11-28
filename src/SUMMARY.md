@@ -21,7 +21,7 @@
     - [Vim 튜토리얼](vim_tutorial.md)
     - [당신의 첫 개발 환경이 Vim이어야 하는 이유](vim_reason.md)
 - [터미널](terminal.md)
- - [터미널 소개](terminal_1st.md)
+    - [터미널 소개](terminal_1st.md)
     - [왜 bash를 사용하는지 알아봅시다](terminal_2nd.md)
     - [VIM이 왜 필요한지 알아봅시다](terminal_3th.md)
     - [터미널로 어떤 것들을 할 수 있는지 알아봅시다](terminal_4th.md)
