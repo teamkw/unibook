@@ -21,7 +21,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/pkeugine"><img src="https://avatars0.githubusercontent.com/u/48251668?v=4" width="100px;" alt=""/><br /><sub><b>Eugine Park</b></sub></a><br /><a href="#content-pkeugine" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/ooketmon"><img src="https://avatars1.githubusercontent.com/u/49191920?v=4" width="100px;" alt=""/><br /><sub><b>Irene Lee </b></sub></a><br /><a href="#ideas-ooketmon" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/ooketmon"><img src="https://avatars1.githubusercontent.com/u/49191920?v=4" width="100px;" alt=""/><br /><sub><b>Irene Lee </b></sub></a><br /><a href="#ideas-ooketmon" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/teamkw/unibook/pulls?q=is%3Apr+reviewed-by%3Aooketmon" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/Seong-Myeong"><img src="https://avatars0.githubusercontent.com/u/57748493?v=4" width="100px;" alt=""/><br /><sub><b>Seong-Myeong</b></sub></a><br /><a href="#content-Seong-Myeong" title="Content">🖋</a></td>
   </tr>
 </table>
