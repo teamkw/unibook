@@ -1,5 +1,4 @@
-# 2.3
-## Visual Studio Code
+# Visual Studio Code
 
 앞서 텍스트 에디터와 IDE에 대해서 알아보았습니다.  
 여러분들이 학교에서는 아마 __Visual Studio__ 나 __Eclipse__ 로 수업을 진행할 것입니다. 그런데 왜 여기서는 __Visual Studio Code__ 를 처음에 설치하고 시작한 걸까요?  
@@ -15,7 +14,7 @@ vscode를 실행시켰을 때의 첫 화면입니다. Welcome이라며 환영해
 원한다면 한글팩을 다운받아서 한글버전으로도 사용할 수 있지만 우리는 앞으로 영어 사용에 익숙해지는 것이 좋기 때문에 이대로 진행해보겠습니다.
 
 1. Explorer(탐색기) - Ctrl+Shift+E  
-![vscode_0_1](.img/vscode_0_1.PNG)  
+![vscode_0_1](./img/vscode_0_1.PNG)  
 Welcome창을 닫아봤습니다. 창이 없어진 자리에 __Open File(Ctrl+O)__ 와 __Open Folder(Ctrl+K Ctrl+O)__ 가 눈에 띕니다.  
 Open File을 하면 원하는 파일을 하나 열어서 창으로 띄워 편집할 수 있습니다.  
 닫을 때는 __Ctrl+K Ctrl+O__ 나 해당 탭의 x표시 클릭으로 닫을 수 있습니다.  
@@ -35,7 +34,7 @@ Open Folder로는 작업할 폴더를 열어서 폴더 안의 파일들을 작�
     준비중
 
 5. Extensions(확장관리) - Ctrl+Shift+X  
-![vscode_0_4](./imgvscode_0_4.PNG)  
+![vscode_0_4](./img/vscode_0_4.PNG)  
 확장 프로그램을 검색하여 설치할 수 있는 탭입니다. 원하는 extension(C, Java, Python 등)을 검색하고 필요한 것을 다운받아서 사용할 수 있습니다.  
 
 6. Test

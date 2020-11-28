@@ -39,7 +39,7 @@ __StackOverflow__
   __C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin__  
 
   마지막으로 cmd창에서 __gcc --version__ 명령어를 입력하여 gcc가 정상적으로 설치되었는지 확인합니다.  
-  [vscodeDownload_window_6](./img/vscodeDownload_window_6.PNG)
+  ![vscodeDownload_window_6](./img/vscodeDownload_window_6.PNG)
 
 
   #### 이제 VScode를 설치해보겠습니다.

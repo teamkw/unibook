@@ -21,7 +21,7 @@
     - [Vim 튜토리얼](vim_tutorial.md)
     - [당신의 첫 개발 환경이 Vim이어야 하는 이유](vim_reason.md)
 - [터미널](terminal.md)
-    - [터미널 소개](terminal_1st.md)
+ - [터미널 소개](terminal_1st.md)
     - [왜 bash를 사용하는지 알아봅시다](terminal_2nd.md)
     - [VIM이 왜 필요한지 알아봅시다](terminal_3th.md)
     - [터미널로 어떤 것들을 할 수 있는지 알아봅시다](terminal_4th.md)
@@ -47,20 +47,19 @@
     - [라이선스 하나면 어떤 코드도 오픈소스!](opensource_license.md)
 - [OS, 그리고 Linux](os_and_linux.md)
     - [세계를 지배하는 Windows]()
-    - [MacOS는 갬성이지 엌ㅋㅋ]()
+    - [MacOS는 감성이지!]()
     - [Windows를 쓰는 A양, MacOS를 쓰는 B군]()
     - [하지만 제일 중요한 OS는 바로 Linux]()
     - [정확히 말하면 UNIX다]()
     - [우리는 왜 학교에서 Linux를 배울까]()
 - [프로그래밍 언어](programming_language.md)
-    - [C와 C++](C_cpp_Chash.md)
+    - [C와 C++ 그리고 C#](C_Cpp_Chash.md)
     - [그 놈의 객체지향](object_oriented.md)
     - [Java = 객체지향?](java.md)
-    - [다들 Python에 집착하는 이유, 그리고 당신은 그러지 말아야 할 이유](python.md)
-    - [HTML도 프로그래밍 언어인가요?]()
-    - [Javascript의 위엄]()
-    - [학교에서 배우는 C#]()
-    - [컴파일 인어와 스크립트 언어]()
+    - [다들 Python에 열광하는 이유, 그리고 당신은 그러지 말아야 할 이유](python.md)
+    - [HTML도 프로그래밍 언어인가요?](html.md)
+    - [Javascript의 위엄](javascript.md)
+    - [컴파일 인어와 스크립트 언어](compile_scripte.md)
 - [에러와 디버깅](error_and_debugging.md)
 
 ## level 2
@@ -84,5 +83,6 @@
 
 ## 추가하면 좋을 것 같은 주제:
 ### 애자일, 테스트, TDD
+
 ## note
 ### 함수형 프로그래밍은 level 1에 넣기에는 좀 무리인듯...?
